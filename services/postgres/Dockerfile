@@ -1,5 +1,4 @@
 FROM postgis/postgis:17-3.5
-#FROM --platform=${BUILDPLATFORM} postgis/postgis:17-3.5
 
 # Install build dependencies, build pgvector, then clean up
 RUN apt-get update && \
